@@ -1,5 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License: none (public domain)*/
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;} /* HTML5 display-role reset for older browsers */ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;} body {line-height:1;} ol,ul {list-style:none;} blockquote,q {quotes:none;} blockquote:before,blockquote:after,q:before,q:after {content:'';content:none;} table {border-collapse:collapse;border-spacing:0;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}/*HTML5 display-role reset for older browsers*/article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 body{
 	background-color: #dcd8d9;
@@ -7,14 +7,39 @@ body{
 	font:normal 100% Cambria, Georgia, serif;
 }
 h1{
-	font-size: 1.5em; /* 24px / 16px */
+	font-size: 1.5em; /* 24 / 16 */
 	font-style: italic;
 	font-weight: normal;
 }
 h1 a{
 	color: #747474;
-	font: bold 0.4583333333333333em Calibri, Optima, Arial, sans-serif; /* 11px / 24px */
+	font: bold 0.4583333333333333em Calibri, Optima, Arial, sans-serif; /* 11 / 24 */
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+#page{
+	margin: 36px auto;
+	width: 960px;
+}
+.blog{
+	margin: 0 auto 53px;
+	width: 900px;
+}
+.blog .main{
+	float: left;
+	width: 566px;
+}
+.blog .other{
+	float: right;
+	width: 331px;
+}
+h1.lede{
+	background: #751910 url("img/blog-title-bg.jpg");
+	color: #f9e3cc;
+	font: normal 1.25em "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;
+}
+h1.lede a {
+	color: #f8f5f2;
+	font-size: 2em;
 }
