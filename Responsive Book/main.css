@@ -1,38 +1,34 @@
 /* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License: none (public domain)*/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}/*HTML5 display-role reset for older browsers*/article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
-body{
-	background-color: #dcd8d9;
-	color: #2c2c2c;
-	font:normal 100% Cambria, Georgia, serif;
+body {
+	background: #CECECE url("img/body.gif");
+	background: url("img/tile.png") repeat-x -2% -230px, url("img/tile.png") repeat-x -4% 550px, url("img/tile.png") repeat-x -8% 80%, url("img/body.gif") repeat -50% 0, #CECECE;
+	color: #303030;
+	font: normal 100%/1.5 Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
 }
 h1{
-	font-size: 1.5em; /* 24 / 16 */
+	font-size: 1.5em; /*24 / 16*/
 	font-style: italic;
 	font-weight: normal;
 }
-h1 a{
-	color: #747474;
-	font: bold 0.4583333333333333em Calibri, Optima, Arial, sans-serif; /* 11 / 24 */
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-	text-decoration: none;
-}
 #page{
 	margin: 36px auto;
-	width: 960px;
+	max-width: 960px;
 }
 .blog{
 	margin: 0 auto 53px;
-	width: 900px;
+	width: 93.75%; /*900 / 960*/
+	background: #f8f5f2;
+	overflow: auto;
 }
 .blog .main{
 	float: left;
-	width: 566px;
+	width: 62.88888888888889%; /*566 / 900*/
 }
 .blog .other{
 	float: right;
-	width: 331px;
+	width: 36.77777777777778%; /*331 / 900*/
 }
 h1.lede{
 	background: #751910 url("img/blog-title-bg.jpg");
@@ -42,4 +38,6 @@ h1.lede{
 h1.lede a {
 	color: #f8f5f2;
 	font-size: 2em;
+	text-transform: uppercase;
+	text-decoration: none;
 }
