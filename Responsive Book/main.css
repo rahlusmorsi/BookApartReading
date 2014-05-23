@@ -45,6 +45,7 @@ h1.lede{
 	background: #751910 url("img/blog-title-bg.jpg");
 	color: #f9e3cc;
 	font: normal 1.25em "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;
+	padding: 0.8em 5.33333333333333%;  /*48 / 900*/
 }
 h1.lede a {
 	color: #f8f5f2;
@@ -69,4 +70,8 @@ h1.lede a {
 .date span {
 	display: block;
 	font-size: 3.83333333em;
+}
+.recent-entries{
+	margin: 0 auto;
+	width: 69.7885196%; /*231 / 331*/
 }
