@@ -12,6 +12,17 @@ h1{
 	font-style: italic;
 	font-weight: normal;
 }
+a {
+	-moz-transition: color 0.3s linear;
+	-o-transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+	transition: color 0.3s linear;
+	color: #D53232;
+	text-decoration: none;
+}
+a:hover {
+	color: #B52A2A;
+}
 #page{
 	margin: 36px auto;
 	max-width: 960px;
@@ -40,4 +51,22 @@ h1.lede a {
 	font-size: 2em;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+.date {
+	background: rgba(0, 0, 0, 0.6);
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFF;
+	font: normal 0.857142857em/1 "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;
+	letter-spacing: 0.075em;
+	padding: 0.75em 0;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 #000;
+}
+.date span {
+	display: block;
+	font-size: 3.83333333em;
 }
